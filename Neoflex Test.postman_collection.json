@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "0768c1ed-26df-41d6-b46c-a052aaef3aa7",
+		"name": "Neoflex Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24869171"
+	},
+	"item": [
+		{
+			"name": "calculate for selected days",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"days\" : [\r\n        \"2023-01-01\",\r\n        \"2023-02-21\",\r\n        \"2023-02-22\",\r\n        \"2023-07-07\",\r\n        \"2023-01-17\"],\r\n    \"yearSalary\" : \"100000\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/weekend/calculate/days",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weekend",
+						"calculate",
+						"days"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "calculate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/weekend/calculate/?daysOfWeekend=10&yearSalary=100000",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"weekend",
+						"calculate",
+						""
+					],
+					"query": [
+						{
+							"key": "daysOfWeekend",
+							"value": "10"
+						},
+						{
+							"key": "yearSalary",
+							"value": "100000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

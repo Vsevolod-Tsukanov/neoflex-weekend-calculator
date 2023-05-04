@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS weekend_dates
+(
+    id   INT AUTO_INCREMENT PRIMARY KEY,
+    date DATE UNIQUE NOT NULL
+);
+
+
+
