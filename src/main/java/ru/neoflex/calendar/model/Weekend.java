@@ -24,19 +24,4 @@ public class Weekend {
     @Column(name = "date")
     private LocalDate date;
 
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Weekend weekend = (Weekend) o;
-
-        return date != null ? date.equals(weekend.date) : weekend.date == null;
-    }
-
-    @Override
-    public int hashCode() {
-        return date != null ? date.hashCode() : 0;
-    }
 }
