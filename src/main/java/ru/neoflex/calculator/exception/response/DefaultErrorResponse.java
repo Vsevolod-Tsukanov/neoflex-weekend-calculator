@@ -1,4 +1,4 @@
-package ru.neoflex.calendar.exception.response;
+package ru.neoflex.calculator.exception.response;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

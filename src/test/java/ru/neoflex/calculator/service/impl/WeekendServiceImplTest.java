@@ -1,9 +1,9 @@
-package ru.neoflex.calendar.service.impl;
+package ru.neoflex.calculator.service.impl;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import ru.neoflex.calendar.dto.WeekendDaysRequest;
+import ru.neoflex.calculator.dto.WeekendDaysRequest;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

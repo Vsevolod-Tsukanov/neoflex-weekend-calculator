@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>ru.neoflex</groupId>
-    <artifactId>calendar</artifactId>
+    <artifactId>vacation-calculator</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>calendar</name>
-    <description>calendar</description>
+    <name>vacation-calculator</name>
+    <description>Calculator for your vacation</description>
     <properties>
         <java.version>11</java.version>
     </properties>

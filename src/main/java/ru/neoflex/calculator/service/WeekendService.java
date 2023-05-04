@@ -1,6 +1,6 @@
-package ru.neoflex.calendar.service;
+package ru.neoflex.calculator.service;
 
-import ru.neoflex.calendar.dto.WeekendDaysRequest;
+import ru.neoflex.calculator.dto.WeekendDaysRequest;
 
 import java.math.BigDecimal;
 

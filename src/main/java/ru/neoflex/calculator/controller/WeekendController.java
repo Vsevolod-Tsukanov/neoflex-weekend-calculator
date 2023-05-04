@@ -1,10 +1,10 @@
-package ru.neoflex.calendar.controller;
+package ru.neoflex.calculator.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import ru.neoflex.calendar.dto.WeekendDaysRequest;
-import ru.neoflex.calendar.service.WeekendService;
+import ru.neoflex.calculator.dto.WeekendDaysRequest;
+import ru.neoflex.calculator.service.WeekendService;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;

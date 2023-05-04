@@ -1,4 +1,4 @@
-package ru.neoflex.calendar.exception;
+package ru.neoflex.calculator.exception;
 
 
 import lombok.extern.slf4j.Slf4j;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import ru.neoflex.calendar.exception.response.ValidationErrorResponse;
-import ru.neoflex.calendar.exception.response.Violation;
+import ru.neoflex.calculator.exception.response.ValidationErrorResponse;
+import ru.neoflex.calculator.exception.response.Violation;
 
 import javax.validation.ConstraintViolationException;
 import java.util.List;

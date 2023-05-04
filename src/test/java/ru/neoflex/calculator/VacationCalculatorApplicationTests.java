@@ -1,10 +1,10 @@
-package ru.neoflex.calendar;
+package ru.neoflex.calculator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CalendarApplicationTests {
+class VacationCalculatorApplicationTests {
 
     @Test
     void contextLoads() {

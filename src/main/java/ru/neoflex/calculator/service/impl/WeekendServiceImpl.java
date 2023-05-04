@@ -1,13 +1,13 @@
-package ru.neoflex.calendar.service.impl;
+package ru.neoflex.calculator.service.impl;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-import ru.neoflex.calendar.dto.WeekendDaysRequest;
-import ru.neoflex.calendar.model.Weekend;
-import ru.neoflex.calendar.repository.WeekendRepository;
-import ru.neoflex.calendar.service.WeekendService;
+import ru.neoflex.calculator.dto.WeekendDaysRequest;
+import ru.neoflex.calculator.model.Weekend;
+import ru.neoflex.calculator.repository.WeekendRepository;
+import ru.neoflex.calculator.service.WeekendService;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

@@ -1,4 +1,4 @@
-package ru.neoflex.calendar.model;
+package ru.neoflex.calculator.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

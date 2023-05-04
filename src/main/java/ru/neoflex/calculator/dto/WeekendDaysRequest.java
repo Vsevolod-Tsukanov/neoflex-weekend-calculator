@@ -1,4 +1,4 @@
-package ru.neoflex.calendar.dto;
+package ru.neoflex.calculator.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
